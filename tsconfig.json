@@ -20,7 +20,7 @@
         "src/api/*"
       ],
       "@config/*": [
-        "src/config/*"
+        "src/agents/config/*"
       ],
       "@fixtures/*": [
         "src/fixtures/*"

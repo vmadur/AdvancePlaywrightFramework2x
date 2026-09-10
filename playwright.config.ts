@@ -48,9 +48,10 @@ export default defineConfig({
 
   use: {
     baseURL: resolveBaseURL(),
-    screenshot: 'only-on-failure',
-    video: 'on',
-    trace: 'on'
+
+    screenshot: 'only-on-failure', // Retain screenshots for failed tests.
+    video: 'on', // Record every test run.
+    trace: 'on' // Retain a trace for every test run.
   },
 
   projects: [
