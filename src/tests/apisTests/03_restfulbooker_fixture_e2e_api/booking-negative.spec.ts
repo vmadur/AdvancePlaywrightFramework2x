@@ -1,6 +1,6 @@
 import { test, expect } from '@fixtures/booker.fixture';
 import { buildBookingFromGenerator } from '@testdata/booking.data';
-import type { BookingApi } from '../../api/BookingApi';
+import type { BookingApi } from '../../../api/BookingApi';
 
 /**
  * Statuses below were verified against the live API. restful-booker does not

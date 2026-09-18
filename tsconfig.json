@@ -4,7 +4,8 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "lib": [
-      "ES2022"
+      "ES2022",
+      "DOM"
     ],
     "types": [
       "node"
@@ -20,7 +21,7 @@
         "src/api/*"
       ],
       "@config/*": [
-        "src/agents/config/*"
+        "src/config/*"
       ],
       "@fixtures/*": [
         "src/fixtures/*"

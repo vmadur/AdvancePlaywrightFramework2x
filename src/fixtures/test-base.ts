@@ -27,8 +27,8 @@ import { InventoryPage } from '@pages/InventoryPage';
 import { ItemDetailPage } from '@pages/ItemDetailPage';
 import { CartPage } from '@pages/CartPage';
 import { CheckoutStepOnePage } from '@pages/CheckoutStepOnePage';
-import { CheckoutStepTwoPage } from '@pages/CheckoutStepTwoPage';
-import { CheckoutCompletePage } from '@pages/CheckoutCompletePage';
+import { CheckoutStepTwoPage } from '@pages/CheckOutStepTwoPage';
+import { CheckoutCompletePage } from '@pages/CheckOutCompletePage';
 import loginTestData from '@testdata/logintestdata.json';
 
 type LoginRecord = {

@@ -1,5 +1,5 @@
 import { DataGenerator } from '@utils/DataGenerator';
-import type { Booking } from '../../api/BookingApi';
+import type { Booking } from '../api/BookingApi';
 
 /** Values restful-booker accepts for the optional `additionalneeds` field. */
 export const ADDITIONAL_NEEDS = ['Breakfast', 'Late checkout', 'Extra bed'] as const;
